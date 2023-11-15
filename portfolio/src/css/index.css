@@ -4,28 +4,24 @@
     --rosa: #f7bebc;
     --magenta: #D904A0;
     --pink: #AB04D9;
-    --roxo: #5D04D9;    
-    --ciano: #04D9B2;
-    --ciano-b: #6bffe4;
+    --roxo: #5D04D9;
+    --preto: #313340;
+    --ciano: #05F2AF;
+    --ciano2: #04D9B2;
     --azul: #3b8ac2;
     --cinza: #c8c8c8;
     --andromeda: #23262e;
-    --andromeda-b: #393d4b;
     --andromeda-c: #52596d;
 
 }
 
 * {
     font-family: 'Poppins', 'Arial', sans-serif;    
-    color: var(--ciano) !important;
+    color: var(--ciano2) !important;
 }
-
 body {
-    /* background-color: var(--andromeda); */
-
-    /* background: linear-gradient(130deg, var(--andromeda-b) 10%, var(--andromeda) 50%) !important; */
-
-    background: linear-gradient(var(--andromeda) 60%, var(--andromeda-b)) !important;
+    background-color: var(--andromeda);
+    /* background: linear-gradient(130deg, #30343f, var(--andromeda)); */
 }
 
 .nav-item a {
@@ -37,25 +33,10 @@ body {
     color: var(--magenta) !important; 
 }
 
-.navbar-nav li a.active {
-    color: var(--ciano-b) !important;
-}
-
-@media (min-width: 768px) {
-    .group-card {
-        height: 18rem !important;        
-    }
-}
-/* @media (max-width: 1368px) {
-    .group-card {
-        width: 41.8rem !important;        
-    }
-} */
-
 .group-card {
+    height: 18rem !important;
     overflow: hidden;
 }
-
 
 .card {
     background-color: var(--andromeda-c);
@@ -77,4 +58,3 @@ body {
 hr {
     width: 70%;
 }
-
