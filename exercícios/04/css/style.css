@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#saude {
+    font-size: 8em;
+}
+
+@media screen and (max-width: 768px) {
+    #saude {
+        font-size: 5em; 
+    }    
+}
