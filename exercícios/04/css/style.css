@@ -14,11 +14,16 @@
 
 #card-main {    
     height: 45vh !important;
-    overflow: hidden !important;        
+    overflow: hidden !important; 
+    background-color: var(--azul);       
 }
 
 #linha-dois div img {    
-    width: 50%;    
+    width: 50%; 
+}
+
+#linha-dois h5, #linha-dois p {
+    color: var(--azul) !important;
 }
 
 #cat {    
@@ -50,9 +55,14 @@
     }       
 }
 
-@media screen and (max-width: 1175px) {
-    /* col-6 */
-}
+/* @media screen and (1175px) and (841px) {
+    .group-card {
+        col-6
+    }
+} */
+
+/* consertar footer */
+
 
 
 
