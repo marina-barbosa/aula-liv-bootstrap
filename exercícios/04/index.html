@@ -12,91 +12,96 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="container w-75">
     <!-- navbar -->
     <nav class="navbar">
-        <div class="container p-4">
+        <div class="container my-3">
             <a class="navbar-brand fw-bold mx-auto fs-3" href="#">Lovet</a>
         </div>
     </nav>
 
-    <main class="container w-75 py-4">
+    <main class="container">
 
         <!-- LINHA 1 -->
-        <div class="row">
-            <div class="col-12 bg-dark rounded-4 text-light text-center">
-
-                <h1 id="saude" class="text-uppercase"><strong>saúde</strong></h1>
-
-                <div class="d-flex justify-content-evenly align-items-start">
-
-                    <div>
-                        <i class="bi bi-emoji-smile fs-2 px-2 py-1 bg-success bg-opacity-75 rounded-circle"></i>
-                        <span class="fs-3 ms-3">sem estresse</span>
+        <div class="row text-center d-flex h-100">
+            <div class="col col-md g-0">
+                <div id="card-main" class="position-relative bg-dark rounded-4 text-light mb-4 d-flex flex-column">
+                    <h1 id="saude" class="card-title text-uppercase"><strong>saúde</strong></h1>
+                    <div id="icons" class="d-md-block d-lg-flex justify-content-lg-around">
+                        <div class="text-nowrap d-md-flex h-50 align-items-center">
+                            <i class="bi bi-emoji-smile fs-2"></i>
+                            <span class="fs-4 ms-3 d-md-flex flex-nowrap">sem estresse</span>
+                        </div>
+                        <div class="text-nowrap d-md-flex h-50 align-items-center">
+                            <i class="bi bi-alarm fs-2"></i>
+                            <span class="fs-4 ms-3 d-md-flex flex-nowrap">sem espera</span>
+                        </div>
                     </div>
-
-                    <img class="w-25" src="./assets/cat.png" alt="" srcset="">
-
-                    <div>
-                        <i class="bi bi-alarm fs-2 px-2 py-1 bg-success bg-opacity-75 rounded-circle"></i>
-                        <span class="fs-3 ms-3">sem espera</span>
-                    </div>
-
+                    <img id="cat" class="" src="./assets/cat.png" alt="" srcset="">
                 </div>
-
             </div>
         </div>
 
         <!-- LINHA 2 -->
-        <div class="row d-flex justify-content-center justify-content-lg-between">
+        <div id="linha-dois" class="row gap-4">
 
             <!-- amarelo -->
-            <div class="card border-0 text-center bg-warning bg-opacity-50 rounded-4 mt-4 me-0 me-md-4 me-lg-0"
-                style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Precisa tirar uma dúvida?</strong></h5>
-                    <p class="card-text">Faz uma consulta online com nossa equipe</p>
-                    <img class="w-50" src="./assets/medical-team.png" alt="" srcset="">
-                </div>
-            </div>
+            <div
+                class="col-md col-xl-5.8 col-xxl-2.9 d-flex flex-column justify-content-around align-items-center bg-warning bg-opacity-50 rounded-4 p-3 pt-5">
 
+                <h5 class="card-title ms-3 mb-3 "><strong>Precisa tirar uma dúvida?</strong></h5>
+                <p class=" align-self-star ms-3 mb-4">Faz uma consulta online com nossa equipe</p>
+                <img class="" src="./assets/medical-team.png" alt="" srcset="">
+
+            </div>
             <!-- azul -->
-            <div class="card border-0 text-center bg-primary bg-opacity-50 rounded-4 mt-4" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Tranquilidade em emergências</strong></h5>
-                    <p class="card-text">Nosso plano de saúde cobre o atendimento emergencial</p>
-                    <img class="w-50" src="./assets/health-insurance.png" alt="" srcset="">
-                </div>
-            </div>
+            <div
+                class="col-md col-xl-5.8 col-xxl-2.9 d-flex flex-column justify-content-around align-items-center bg-primary bg-opacity-50 rounded-4 p-3 pt-5">
 
+                <h5 class="card-title ms-3 mb-3 "><strong>Tranquilidade em emergências</strong></h5>
+                <p class=" align-self-star ms-3 mb-4">Nosso plano de saúde cobre o atendimento emergencial</p>
+                <img class="" src="./assets/health-insurance.png" alt="" srcset="">
+
+            </div>
             <!-- vermelho -->
-            <div class="card border-0 text-center bg-danger bg-opacity-50 rounded-4 mt-4 me-0 me-md-4 me-lg-0"
-                style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Precisando e medicamentos?</strong></h5>
-                    <p class="card-text">Nos envie a receita que nós te enviamos os remédios</p>
-                    <img class="w-50" src="./assets/medicine.png" alt="" srcset="">
-                </div>
-            </div>
+            <div
+                class="col-md col-xl-5.8 col-xxl-2.9 d-flex flex-column justify-content-around align-items-center bg-danger bg-opacity-50 rounded-4 p-3 pt-5">
 
+                <h5 class="card-title ms-3 mb-3 "><strong>Precisando e medicamentos?</strong></h5>
+                <p class=" align-self-star ms-3 mb-4">Nos envie a receita que nós te enviamos os remédios</p>
+                <img class="" src="./assets/medicine.png" alt="" srcset="">
+
+            </div>
             <!-- verde -->
-            <div class="card border-0 text-center bg-success bg-opacity-50 rounded-4 mt-4" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>Exames Descomplicados</strong></h5>
-                    <p class="card-text">Buscamos e levamos seu pet em casa</p>
-                    <img class="w-50" src="./assets/ambulance.png" alt="" srcset="">
-                </div>
+            <div
+                class="col-md col-xl-5.8 col-xxl-2.9 d-flex flex-column justify-content-around align-items-center bg-success bg-opacity-50 rounded-4 p-3 pt-5">
+
+                <h5 class="card-title ms-3 mb-3 "><strong>Exames Descomplicados</strong></h5>
+                <p class=" align-self-star ms-3 mb-4">Buscamos e levamos seu pet em casa</p>
+                <img class="" src="./assets/ambulance.png" alt="" srcset="">
+
             </div>
-
-        </div>
-
 
 
         </div>
     </main>
 
-
-
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Marina Barbosa</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </footer>
+      </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

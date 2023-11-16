@@ -4,12 +4,56 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    --azul: #031633;
+}
+
 #saude {
     font-size: 8em;
+}
+
+#card-main {    
+    height: 45vh !important;
+    overflow: hidden !important;        
+}
+
+#linha-dois div img {    
+    width: 50%;    
+}
+
+#cat {    
+    width: 400px !important;    
+    position: relative;
+    left: calc(50% - 200px); 
+    bottom: 30%;       
 }
 
 @media screen and (max-width: 768px) {
     #saude {
         font-size: 5em; 
-    }    
+    }  
+    
+    #linha-dois div img {    
+        width: 30%;    
+    } 
 }
+
+@media screen and (max-width: 991px) {
+    #icons {
+        margin: auto;
+    }
+      
+    #cat {    
+        width: 400px !important;    
+        position: relative;        
+        bottom: 13%;                      
+    }       
+}
+
+@media screen and (max-width: 1175px) {
+    /* col-6 */
+}
+
+
+
+
