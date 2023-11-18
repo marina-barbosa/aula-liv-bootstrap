@@ -1,6 +1,6 @@
 # aula-liv-bootstrap
 
-Portfolio (incompleto)
+Portfolio 
 <a href="https://marina-barbosa.github.io/aula-liv-bootstrap/portfolio/src/views/" target="_blank">https://marina-barbosa.github.io/aula-liv-bootstrap/portfolio/src/views/</a>
 
 Lovet
