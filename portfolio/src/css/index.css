@@ -16,9 +16,10 @@
 }
 
 * {
-    font-family: 'Poppins', 'Arial', sans-serif;    
+    font-family: 'Poppins', 'Arial', sans-serif;
     color: var(--ciano2) !important;
 }
+
 body {
     background-color: var(--andromeda);
     /* background: linear-gradient(130deg, #30343f, var(--andromeda)); */
@@ -26,28 +27,40 @@ body {
 
 .nav-item a {
     transition: color 0.3s;
-    font-size: 1.2em;      
+    font-size: 1.2em;
 }
 
 .nav-item a:hover {
-    color: var(--magenta) !important; 
+    color: var(--magenta) !important;
+
+}
+
+.custom-toggle {
+    background-color: var(--andromeda-c);
 }
 
 .group-card {
-    height: 18rem !important;
     overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .group-card {
+        height: 18rem !important;
+    }
 }
 
 .card {
     background-color: var(--andromeda-c);
-    z-index: 1;    
+    z-index: 1;
 }
 
-.bi-github, .bi-arrow-down-circle-fill{
+.bi-github,
+.bi-arrow-down-circle-fill {
     font-size: 10em;
 }
 
-.bi-envelope-fill, .bi-linkedin{
+.bi-envelope-fill,
+.bi-linkedin {
     font-size: 4em;
 }
 
